@@ -72,6 +72,22 @@ crypto-market-explorer/
 
 No API key or environment variables are needed (CoinGecko's free tier).
 
+## Run the App
+From the repo root I install the libraries and start the dashboard:
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
+```
+It runs offline from the files in `data/`, so no API key or internet connection is needed.
+
+The sidebar has six pages:
+- **Overview**: key numbers for BTC and an interactive risk vs return bubble chart
+- **Price & drawdowns**: any coin's price with bull/bear phases shaded, plus its drawdown
+- **Monthly returns**: year-by-month heatmap for BTC or ETH
+- **Altseason**: ETH/BTC ratio with altseasons highlighted and my 12-coin altseason score
+- **Correlation & beta**: correlation heatmap, beta table and 30/90-day rolling correlation with breakaway days
+- **Hypothesis scorecard**: the verdict for each hypothesis, computed from the data
+
 ## Main Features
 - Bitcoin market cycles: bull and bear phases marked from peak to bottom, with their length, returns and volatility
 - Altseason detection: ETH/BTC ratio and an "altseason score" (share of coins beating Bitcoin over 90 days)
