@@ -1,0 +1,13 @@
+coin,symbol,theme
+bitcoin,BTC,Layer 1
+ethereum,ETH,Layer 1
+solana,SOL,Layer 1
+binancecoin,BNB,Exchange/Layer 1
+ripple,XRP,Payments
+dogecoin,DOGE,Meme
+cardano,ADA,Layer 1
+chainlink,LINK,Oracle
+hyperliquid,HYPE,DEX/Perps
+zcash,ZEC,Privacy
+monero,XMR,Privacy
+bittensor,TAO,AI
